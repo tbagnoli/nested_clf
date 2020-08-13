@@ -1,0 +1,41 @@
+# created by PyCharm
+.idea*
+
+# created by pipenv
+Pipfile*
+.~lock*
+
+# created by venv
+*_env
+
+# created by jupyter
+.ipynb_checkpoints*
+Icon*
+
+# created by mac os
+.DS_Store
+
+# created by Python 3
+__pycache__*
+
+# created by excel
+.~*.xslx
+
+# created by torch
+.vector_cache*
+
+# configuration files (no credentials in repo)
+*config.json
+*_cred.json
+config.ini
+
+# data files
+*.xlsx
+*.csv
+
+# pypi packages
+dist/
+*.egg-info/
+
+# pickle models (only stored locally)
+*.pkl
